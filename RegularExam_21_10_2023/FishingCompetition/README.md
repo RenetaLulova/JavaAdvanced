@@ -36,9 +36,9 @@ Accumulate at least 20 tons of fish for a successful season. Even if the quota i
 
 ## Example 1
 -Input
+
 4
----S
-----
+- ---
 9-5-
 34--
 down
@@ -47,10 +47,11 @@ right
 down
 collect the nets
 
+
 -Output
 You didn't catch enough fish and didn't reach the quota! You need 8 tons of fish more.
 Amount of fish caught: 12 tons.
-----
+- ---
 ----
 --5-
 S4--
@@ -62,13 +63,12 @@ S---9
 777-1
 W333-
 11111
------
+- ----
 down
 down
 right
 down
 collect the nets
-
 
 -Output
 You fell into a whirlpool! The ship sank and you lost the fish you caught. Last coordinates of the ship: [2,0]
