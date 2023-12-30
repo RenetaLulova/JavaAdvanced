@@ -1,7 +1,7 @@
 # Fishing Competition Problem Description
 
 ## Overview
-In this fishing competition, you'll navigate a square fishing area to catch fish. Your ship is represented by 'S', fish passages by digits, and whirlpools by 'W'. '-' represents empty positions.
+In this fishing competition, you'll navigate a square fishing area to catch fish. Your ship is represented by 'S', fish passages by digits, and whirlpools by 'W'. 'x' represents empty positions.
 
 ## Rules
 - Your position: 'S'
@@ -38,9 +38,9 @@ Accumulate at least 20 tons of fish for a successful season. Even if the quota i
 -Input
 
 4
-- ---
-9-5-
-34--
+xxxx
+9x5x
+34xx
 down
 down
 right
@@ -51,19 +51,19 @@ collect the nets
 -Output
 You didn't catch enough fish and didn't reach the quota! You need 8 tons of fish more.
 Amount of fish caught: 12 tons.
-- ---
-----
---5-
-S4--
+xxxx
+xxxx
+xx5x
+S4xx
 
 ## Example 2
 -Input
 5
-S---9
-777-1
-W333-
+Sxxx9
+777x1
+W333x
 11111
-- ----
+xxxxx
 down
 down
 right
